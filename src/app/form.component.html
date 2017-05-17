@@ -1,0 +1,9 @@
+<form name="testform">
+	<md-input-container>
+	  <input mdInput placeholder="Username" type="email" name="username" #username required [(ngModel)]='name'>
+	</md-input-container>
+	<md-input-container>
+	  <input mdInput  placeholder="password" type="password" name="password">  
+	 </md-input-container>
+	 <button (click)="toggle(testForm)">Show/Hide</button>
+ </form>

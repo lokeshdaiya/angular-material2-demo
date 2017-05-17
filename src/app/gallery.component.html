@@ -1,0 +1,17 @@
+<style>
+	.exmple-card{
+		width:300px;
+		float: :left;
+		margin: 5px;
+	}
+</style>
+<md-card class="exmple-card" *ngFor="let item of items">
+	<md-card-header>
+		<md-card-title></md-card-title>
+	</md-card-header>
+	
+	<img md-card-image src="{{item.img}}">
+	<md-card-content>
+		{{item.description}}
+	</md-card-content>
+</md-card>

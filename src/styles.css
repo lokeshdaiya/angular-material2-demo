@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/core/theming/prebuilt/indigo-pink.css';
+
+body{
+	counter-reset:inc;
+}
+
+
+/*form css*/
+.ng-valid[required], .ng-valid.required  {
+border-left: 5px solid #42A948; /* green */
+}
+.ng-invalid:not(form):not(md-input-container)  {
+border-left: 5px solid red; /* red */
+}
